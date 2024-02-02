@@ -1,0 +1,43 @@
+
+.box{
+    height: 100px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 200px;
+    background: repeating-linear-gradient(to right,aqua, red);
+    border-radius: 20px;
+    transition-duration: 2s;
+ 
+  
+}
+
+.hour ,.minute , .second , .dot {
+    font-size: 60px;
+  
+}
+
+.hour{
+    font-weight: bold;
+    font-size: 76px;
+    color: blue;
+    text-shadow: 3px 2px 6px black;
+}
+
+.minute{
+
+    font-size: 70px;
+    text-shadow: 2px 2px 7px black;
+    color: aqua;
+    font-weight: bold;
+}
+
+
+.box:hover{
+
+    transform: scale(1.5);
+    transition-duration: 2s;
+}
+ 
